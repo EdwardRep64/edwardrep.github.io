@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/8225.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    min-height: 80px;
+    background: linear-gradient(
+        90deg,
+        rgb(0, 0, 0)0%,
+        rgb(0, 140, 255)70%
+    );
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+
+}
+.logo{
+    align-content: center;
+    font-size: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #DEDEDE;
+    display: block;
+    font-weight: bold;
+}
+
+.menu .navbar ul li a:hover{
+    color: #ffffff;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {           
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+h1 {
+    margin: 80px;
+}
+
+@media(max-width:991px) {
+
+    .content {
+       min-height: 70px;
+    }
+    
+    .menu {
+        top: 0;
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: linear-gradient(
+        90deg,
+        rgb(0, 0, 0)0%,
+        rgb(0, 140, 255)70%
+    );
+    display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+
+    }
+    
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+}
+
+.photoperfil {
+    margin:30px;
+
+}
+
+.myname {
+    border-radius: 20px;
+    width: 605px;
+    height: 9px;
+    margin: 0px 860px;
+    display: flex;
+    text-align: center;
+    float: right;
+    font-size: 28px;
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    display: block;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+.culoasado {
+background: linear-gradient(
+        90deg,
+        rgb(0, 0, 0)0%,
+        rgb(0, 140, 255)70%
+    );
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    text-align: left;
+    border-radius: 20px;
+    background-position: left;
+    background-color:rgb(255, 0, 0);
+    width: 1000px;
+    height: 600px;
+    margin: 50px;
+}
+
+.xd1 {
+    border-radius: 20px;
+    width: 605px;
+    height: 9px;
+    margin: 0px 835px;
+    display: flex;
+    text-align: center;
+    float: right;
+    font-size: 25px;
+    position: absolute;
+    top: 22%;
+    right: 0%;
+    display: block;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+.xd2 {
+    border-radius: 20px;
+    width: 605px;
+    height: 9px;
+    margin: 0px 875px;
+    display: flex;
+    text-align: center;
+    float: right;
+    font-size: 20px;
+    position: absolute;
+    top: 33%;
+    right: 0%;
+    display: block;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+.xd3 {
+    border-radius: 20px;
+    width: 900px;
+    height: 9px;
+    margin: 0px 875px;
+    display: flex;
+    text-align: center;
+    float: right;
+    font-size: 21px;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    display: block;
+    font-weight: bold;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+
